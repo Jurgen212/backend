@@ -11,6 +11,8 @@ spring:
                 format_sql: true
         database: postgresql
         database-platform: org.hibernate.dialect.PostgreSQLDialect
+        hibernate:
+          ddl-auto: update
 
 application:
     security:
@@ -19,7 +21,3 @@ application:
             expiration: 86400000
             refresh-token:
                 expiration: 604800000
-logging:
-    level:
-        org:
-            springframework: DEBUG
