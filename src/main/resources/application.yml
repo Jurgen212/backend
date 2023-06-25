@@ -1,6 +1,6 @@
 spring:
     datasource:
-        url: jdbc:postgresql://localhost:5432/midefensadatabase
+        url: jdbc:postgresql://SvNk9MYjR8LnivPDmavzUrD1cttiyDLU@dpg-cibrq6l9aq03rjh0jsd0-a.oregon-postgres.render.com:5432/midefensadatabase
         username: midefensadatabase_user
         password: SvNk9MYjR8LnivPDmavzUrD1cttiyDLU
         driver-class-name: org.postgresql.Driver
